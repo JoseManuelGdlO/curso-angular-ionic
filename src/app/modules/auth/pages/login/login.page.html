@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Curso angular</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+    <h1>Mi primera App</h1>
+    <ion-item>
+        <ion-label>spinner</ion-label>
+        <ion-spinner color="success" name="crescent"></ion-spinner>
+    </ion-item>
+    <ion-button id="open-toast" expand="full">Completar!</ion-button>
+    <p id="message">This toast example uses triggers to automatically open a toast when the button is clicked.</p>
+    <ion-toast trigger="open-toast" message="Listo! has completado tu app!" [duration]="5000"></ion-toast>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col size="3">
+                <ion-button color="primary" expand="full">col 1</ion-button>
+            </ion-col>
+            <ion-col>
+                <ion-button color="secondary" expand="full">col 2</ion-button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="9">
+                <ion-button color="primary" expand="full">col 1</ion-button>
+            </ion-col>
+            <ion-col size="3">
+                <ion-button color="secondary" expand="full">col 2</ion-button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-button color="primary" expand="full">col 1</ion-button>
+            </ion-col>
+            <ion-col>
+                <ion-button color="secondary" expand="full">col 2</ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+        <ion-title>Ionic App!!</ion-title>
+    </ion-toolbar>
